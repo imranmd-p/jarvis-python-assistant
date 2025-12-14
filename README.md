@@ -1,24 +1,25 @@
 # Jarvis Python Assistant
 
-Jarvis is a Python-based voice assistant that listens to voice commands and performs basic tasks such as opening websites, telling the time, and responding using text-to-speech.
+Jarvis is a Python-based virtual assistant project that simulates conversational interaction and basic command handling through a command-line interface. The project demonstrates Python program structure, user input handling, and modular design.
 
 ## Features
-- Voice command recognition
-- Text-to-speech responses
-- Can open websites and perform basic system tasks
+- Command-line based interaction
+- Simulated AI-style responses (mocked for demonstration)
+- Simple music command handling using a local music library
+- Modular code structure for easy extension
+
+## Project Structure
+- `main.py` – Entry point of the application and main interaction loop
+- `client.py` – Handles simulated AI responses
+- `musicLibrary.py` – Manages a simple music library and playback logic
 
 ## Tech Stack
 - Python
-- SpeechRecognition
-- pyttsx3
-- OS module
 
-## How to Use
-1. Make sure Python is installed
-2. Install required libraries
-   pip install -r requirements.txt
-3. Run the program
+## How to Run
+1. Make sure Python is installed on your system
+2. Clone the repository or download the source code
+3. Navigate to the project directory
+4. Run the application using:
+   ```bash
    python main.py
-
-## Note
-This project is intended to be run locally as it requires microphone and system access.
